@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -40px;
+    color: rgb(17, 100, 255);
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.button{
+    width: 150px;
+    
+    background: #006EFF;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border:none;
+    color: white;
+    padding: 0.5rem;
+    font-weight:100;
+    cursor: pointer;
+
+    background: rgb(43, 92, 226);
+      transition: 500ms linear; 
+}
+
+.button:hover{
+    background: rgba(255, 11, 11, 0.945);
+    color: white;
+}
+
+.button2{
+    width: 150px;
+    
+    background: #006EFF;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border:none;
+    color: white;
+    padding: 0.5rem;
+    font-weight:100;
+    cursor: pointer;
+
+    background: rgb(43, 92, 226);
+      transition: 500ms linear; 
+}
+
+.button2:hover{
+    background: rgba(255, 239, 11, 0.945);
+    color: white;
+}
+
+.button3{
+    width: 150px;
+    
+    background: #006EFF;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border:none;
+    color: white;
+    padding: 0.5rem;
+    font-weight:100;
+    cursor: pointer;
+
+    background: rgb(43, 92, 226);
+      transition: 500ms linear; 
+}
+
+.button3:hover{
+    background: rgba(0, 253, 34, 0.945);
+    color: white;
+}
+
+.button4{
+    width: 150px;
+    
+    background: #006EFF;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border:none;
+    color: white;
+    padding: 0.5rem;
+    font-weight:100;
+    cursor: pointer;
+
+    background: rgb(43, 92, 226);
+      transition: 500ms linear; 
+}
+
+.button4:hover{
+    background: rgba(0, 101, 253, 0.945);
+    color: white;
+}
